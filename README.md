@@ -6,7 +6,7 @@
 </p>
 
 # 🤖 AI-Powered Resume Analyzer & Job Matching System
-### *(Resume Parser • Placement Prediction • Job Matching)*
+### *(Resume Parser • Job Matching)*
 
 This project is a **Machine Learning–based recruitment system** that analyzes candidate resumes using **NLP**, predicts placement tiers with **91.36% accuracy**, and recommends the best-fit companies based on skills, academic performance, and experience.
 
@@ -122,16 +122,14 @@ streamlit run app.py
 
 ### **Models Trained (8 Total)**
 
-| Model | Status |
-|-------|--------|
-| ✔ Logistic Regression | ⭐ **Best — 91.36% Accuracy** |
-| ✔ Support Vector Machine (SVM) | Used |
-| ✔ Decision Tree | Used |
-| ✔ Random Forest | Used |
-| ✔ Gradient Boosting | Used |
-| ✔ XGBoost | Used |
-| ✔ LightGBM | Used |
-| ✔ CatBoost | Used |
+- Logistic Regression ⭐ (Best — 91.36% Accuracy)
+- SVM
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- CatBoost
 
 ### **🏆 Final Model Selected: Logistic Regression**
 
@@ -147,17 +145,6 @@ Chosen for:
 - PCA for dimensionality reduction
 - StandardScaler for normalization
 - Feature Engineering: Technical Skill Score, Communication Score, Internship/Project flags
-
----
-
-## 📊 Placement Tier Classes
-
-| Class | Meaning |
-|-------|---------|
-| 🟡 Premium | ≥ 20 LPA |
-| 🟢 Standard | 15–19 LPA |
-| 🔵 Basic | < 15 LPA |
-| 🔴 Not Placed | Below criteria, needs improvement |
 
 ---
 
