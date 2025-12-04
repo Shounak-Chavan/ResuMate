@@ -8,7 +8,7 @@
 # 🤖 AI-Powered Resume Analyzer & Job Matching System
 ### *(Resume Parser • Job Matching)*
 
-This project is a **Machine Learning–based recruitment system** that analyzes candidate resumes using **NLP**, predicts placement tiers with **91.36% accuracy**, and recommends the best-fit companies based on skills, academic performance, and experience.
+ResuMate is an intelligent AI-powered resume analysis & job recommendation system that extracts important information from resumes using NLP, predicts a student’s placement tier using an ML model, and matches candidates with top companies based on skills, experience, and academic performance.
 
 The system combines **spaCy NLP parsing**, **SMOTE-balanced ML models**, and a **custom job matching engine** with an interactive **Streamlit** web app.
 
